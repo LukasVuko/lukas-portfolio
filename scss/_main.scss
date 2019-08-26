@@ -41,3 +41,46 @@ main {
     color: $gradient-color-1; /* or whatever color you prefer */
   }
 }
+
+// Projects
+.project {
+  background-color: white;
+  &-card {
+    &-top {
+      position: relative;
+    }
+    img {
+      width: 100%;
+    }
+    ul {
+      position: absolute;
+      top: 90%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      list-style: none;
+      display: flex;
+      padding: 0;
+      li {
+        padding-right: 0.5rem;
+      }
+    }
+  }
+}
+
+.hash {
+  background-color: $bg-color-dark;
+  text-align: center;
+  padding: 1rem;
+  line-height: 1.5;
+}
+.desc {
+  background-color: white;
+  text-align: left;
+  padding: 1rem;
+  line-height: 1.5;
+  p {
+    color: black;
+  }
+}
