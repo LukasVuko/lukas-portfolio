@@ -1,0 +1,43 @@
+main {
+  width: calc(100vw - 2.4rem);
+  margin: auto;
+  margin-top: 500px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px #4a4a4a;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.about {
+  background-color: $dark-color;
+  padding: 1.2rem;
+  border-radius: 7px 7px 0 0;
+}
+.qualifications {
+  background-color: $dark-color;
+  padding: 1.2rem;
+}
+
+.myprocess {
+  background-color: white;
+  padding: 1.2rem;
+  h2 {
+    color: #4a4a4a;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding-left: 1em;
+    text-indent: -0.7em;
+    color: #4a4a4a;
+  }
+
+  li::before {
+    content: '•';
+    color: $gradient-color-1; /* or whatever color you prefer */
+  }
+}
